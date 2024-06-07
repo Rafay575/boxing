@@ -17,6 +17,7 @@ function App() {
     <div style={divStyle}>
       <Navbar />
       <Stepper />
+      <Video />
     </div>
   );
 }

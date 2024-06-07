@@ -21,7 +21,7 @@ const Confirmation = ({ onPrevious, formData }) => {
         formDataToSend.append('image', image);
 
         try {
-            const response = await axios.post('http://localhost:800/submit', formDataToSend, {
+            const response = await axios.post('http://localhost:8000/submit', formDataToSend, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
