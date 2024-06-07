@@ -58,7 +58,7 @@ const AccountInfo = ({ onNext, onPrevious ,submitAccountInfo}) => {
       <form onSubmit={handleSubmit} className="w-full max-w-lg p-8 bg-white rounded-lg shadow-md">
         <h2 className="text-2xl font-bold text-center mb-8 text-gray-700">Upload Image</h2>
 
-        {/* Drag and Drop Image Uploader */}
+        
         <div
           {...getRootProps()}
           className={`flex flex-col items-center justify-center w-full h-64 p-4 border-2 border-dashed rounded-lg cursor-pointer transition-colors ${
