@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Stepper from './Components/Stepper';
 import Navbar from './Components/Navbar';
+import Video from './Components/Video';
 
 function App() {
   const divStyle = {
